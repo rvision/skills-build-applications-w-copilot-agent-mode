@@ -34,7 +34,7 @@ function App() {
           <Route path="/teams" element={<Teams />} />
           <Route path="/users" element={<Users />} />
           <Route path="/workouts" element={<Workouts />} />
-          <Route path="/" element={<h2>Welcome to OctoFit Tracker!</h2>} />
+          <Route path="/" element={<div className="mt-5 text-center"><h1 className="display-3 mb-4">Welcome to <span className="text-primary">OctoFit Tracker</span>!</h1><p className="lead">Track your fitness, compete with friends, and stay motivated.</p></div>} />
         </Routes>
       </div>
     </Router>
